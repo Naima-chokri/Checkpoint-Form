@@ -12,19 +12,19 @@ const MyForm = () => {
             <Row>
                 <Col>
                 <Form>
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Group className="mb-3" controlId="formBasicEmail" style={{ textAlign: "start" }}>
                         <Form.Label>Enter your first name:</Form.Label>
                         <Form.Control type="text" placeholder="Enter your first name" />
                     </Form.Group>
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Group className="mb-3" controlId="formBasicEmail" style={{ textAlign: "start" }}>
                         <Form.Label>Enter your last name:</Form.Label>
                         <Form.Control type="text" placeholder="Enter your last name" />
                     </Form.Group>
-                    <Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicEmail" style={{ textAlign: "start" }}>
                         <Form.Label>Enter your email address:</Form.Label>
                         <Form.Control type="email" placeholder="Enter your your email address" />
                     </Form.Group>
-                    <Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicEmail" style={{ textAlign: "start" }}> 
                         <Form.Label>Enter your mobile number:</Form.Label>
                         <Form.Control type="text" placeholder="Enter your mobile number" />
                     </Form.Group>
