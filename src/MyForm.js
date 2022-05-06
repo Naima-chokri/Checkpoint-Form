@@ -8,8 +8,8 @@ import pic1 from './images/pic1.jpg'
 const MyForm = () => {
     return ( 
         <div style={{  width: 1500, padding: 30 }}>
-            <h4 style={{ color:'#FF3358', fontSize:36 , margin:30 }}>Sign up now</h4>
-            <Row>
+            <h4 style={{color:'#F5627D' , fontSize:35}} >Sign up now</h4>
+            <Row >
                 <Col>
                 <Form>
                     <Form.Group className="mb-3" controlId="formBasicEmail" style={{ textAlign: "start" }}>
