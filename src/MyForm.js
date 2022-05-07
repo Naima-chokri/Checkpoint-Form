@@ -1,14 +1,16 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form, Button } from 'react-bootstrap';
-import { Row, Col, Grid } from 'react-bootstrap';
-import pic1 from './images/pic1.jpg'
+import { Row, Col } from 'react-bootstrap';
+import pic1 from './images/pic1.jpg';
+import Navbar from './Navbar';
 
 
 
 const MyForm = () => {
     return ( 
         <div style={{  width: 1500, padding: 30 }}>
-            <h4 style={{color:'#F5627D' , fontSize:35}} >Sign up now</h4>
+            <Navbar />
+            <h4 style={{color:'#F5627D' , fontSize:35, margin:30}} >Sign up now</h4>
             <Row >
                 <Col>
                 <Form>
